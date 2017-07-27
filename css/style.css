@@ -1762,7 +1762,7 @@ font-size: 20px;
       margin-top: 20px;
       padding: 20px;
       background-color: #f1f1f1;
-      height: 25em;
+      height: 29.5em;
     border-radius: 5px;
     font-size: 20px;
     }
@@ -1808,13 +1808,13 @@ font-size: 20px;
     }
     .fa-ul{
       margin-left: 60px;
-      font-size: 20px;
+      font-size: 15px;
     }
     .media-heading{
       color: #c89704;
       margin-left: 20px;
       font-size: 30px;
-    margin-top: 50px;
+    margin-top: 40px;
     }
     .comment{
       margin-left: 20px;
@@ -1825,7 +1825,7 @@ font-size: 20px;
     }
     .fa-li{
       color: #c89704;
-      font-size: 30px;
+      font-size: 20px;
     }
     .sidenav-menu li a{
       border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -1862,6 +1862,6 @@ font-size: 20px;
       color:white;
     }
     #img1{
-    width: 8em;
-    height: 9em;
+   width: 6em;
+    height: 7em;
     }
