@@ -73,21 +73,22 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F95959;
+  background: #c89704;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #F95959;
+  background: #c89704;
 }
 
 ::selection {
   color: #fff;
-  background: #F95959;
+  background: #c89704;
 }
 
 .fh5co-nav .top-menu {
   padding: 28px 0;
+  background-color: black;
 }
 .fh5co-nav #fh5co-logo {
   font-size: 24px;
@@ -112,7 +113,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav ul {
   padding: 0;
-  margin: 5px 0 0 0;
+  margin: 20px 0 0 0;
 }
 .fh5co-nav ul li {
   padding: 0;
@@ -129,7 +130,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.5s;
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
-  color: black;
+  color: #f2f2f2;
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -143,7 +144,7 @@ h1, h2, h3, h4, h5, h6, figure {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  top: 40px;
+  top: 20px;
   left: 0;
   text-align: left;
   background: #000;
@@ -189,7 +190,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.has-dropdown:hover a, .fh5co-nav ul li.has-dropdown:focus a {
-  color: #000;
+  color: #f2f2f2;
 }
 .fh5co-nav ul li.btn-cta a {
   padding: 30px 0px !important;
@@ -216,7 +217,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .fh5co-nav ul li.active > a {
-  color: #000 !important;
+  color: #f2f2f2 !important;
   position: relative;
 }
 .fh5co-nav ul li.active > a:after {
@@ -314,6 +315,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero .flexslider .slides {
   position: relative;
   overflow: hidden;
+  background: black;
 }
 #fh5co-hero .flexslider .slides li {
   background-repeat: no-repeat;
@@ -329,7 +331,10 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   content: '';
-  background: rgba(0, 0, 0, 0.4);
+  background-image: url("../images");
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
   z-index: 1;
 }
 #fh5co-hero .flexslider .flex-control-nav {
@@ -569,6 +574,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .services h3 a {
   color: #000;
+  cursor: pointer !important;
 }
 .services .icon {
   width: 90px;
@@ -824,6 +830,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 18px;
   line-height: 1.5;
   color: #828282;
+  text-align: justify;
 }
 .fh5co-heading span {
   display: block;
@@ -1272,10 +1279,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav-toggle.fh5co-nav-white > i {
   color: #fff;
-  background: #000;
+  background: white;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
-  background: #000;
+  background: white;
 }
 
 .fh5co-nav-toggle i::before {
@@ -1650,21 +1657,26 @@ text-align: left;
   background-color: #c89704 !important;
 }
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 46px;
-  right: 0;
-  height: 53%;
-  width: 69%;
-  opacity: 0;
-  border-radius: 50%;
-  transition: .5s ease;
-  background-color:#fbd150;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 53.7px;
+    right: 0;
+    margin-top: -12.3em !important;
+    display: none;
+    height: 200px;
+    width: 200px;
+    opacity: 0;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    transition: .5s ease;
+    background-image: url(../images/user-a.jpg);
+    cursor: pointer;
 }
 
 .img-container:hover .overlay {
-  opacity: 0.7;
+  opacity: 1;
+  display: block;
 }
 
 .text {
@@ -1865,3 +1877,176 @@ font-size: 20px;
    width: 6em;
     height: 7em;
     }
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal4 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal5 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal6 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    tops: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close1 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close3 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close4 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close5 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close6 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3:hover,
+.close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close4:hover,
+.close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close5:hover,
+.close5:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close6:hover,
+.close6:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-heading{
+
+      position: relative;
+    left: 1.5em;
+    font-size: 30px;
+    font-weight: 500;
+    color: #c89704;
+}

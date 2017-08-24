@@ -93,7 +93,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="index.html">Law<span>.</span></a></div>
+						<div id="fh5co-logo"><a href="index.html"><img src="images/logo-tl.png"></a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
@@ -109,7 +109,8 @@
 									<li><a href="delhi.php">Delhi</a></li>
 									<li><a href="jabalpur.php">Jabalpur</a></li>
 									<li><a href="mumbai.php">Mumbai</a></li>
-									
+									<li><a href="hyderabad.php">Hyderabad</a></li>
+									<li><a href="bhopal.php">Bhopal</a></li>
 								</ul>
 							</li>
 							<!--<li class="btn-cta"><a href="#"><span>Login</span></a></li>
@@ -125,7 +126,7 @@
 	<aside id="fh5co-hero" class="js-fullheight">
 		<div class="flexslider js-fullheight">
 			<ul class="slides">
-		   	<li style="background-image: url(images/img_bg_1.jpg);">
+		   	<li style="background-image: url(images/contact3.jpg);">
 		   		<div class="overlay-gradient"></div>
 		   		<div class="container">
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
@@ -212,17 +213,16 @@
 		<div class="container">
 			<div class="row row-pb-md">
 				<div class="col-md-3 fh5co-widget">
-					<h4>Attorney's Law</h4>
+					<h4><a href="index.html"><img src="images/logo-tl.png"></a></h4>
 					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
 				</div>
 				<div class="col-md-3 col-md-push-1">
 					<h4>Navigation</h4>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Practice Areas</a></li>
-						<li><a href="#">Won Cases</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">About us</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="practice.html">Practice Areas</a></li>
+						<li><a href="our_people.html">Our People</a></li>
+						<li><a href="about.html">About us</a></li>
 					</ul>
 				</div>
 
