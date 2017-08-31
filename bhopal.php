@@ -133,7 +133,7 @@
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 		   				<div class="slider-text-inner desc">
 		   					<h2 class="heading-section">Contact Us</h2>
-		   					<p class="fh5co-lead">Designed with <i class="icon-heart3"></i> by the fine folks at <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a></p>
+		   					<!--<p class="fh5co-lead">Designed with <i class="icon-heart3"></i> by the fine folks at <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a></p>-->
 		   				</div>
 		   			</div>
 		   		</div>
@@ -215,7 +215,7 @@
 			<div class="row row-pb-md">
 				<div class="col-md-3 fh5co-widget">
 					<h4><a href="index.html"><img src="images/logo-tl.png"></a></h4>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<p style="font-size:10px">Triumph Legal, initially started by alumni of Symbiosis Law School, Pune, with a zeal to provide matchless legal services and one roof solutions to our clients. Triumph Legal started its Pan India operations from New Delhi in 2014 and over the period of last 2 years has established fully operational offices at Mumbai and Jabalpur with strength of 5 Partners and 20 Lawyers.</p>
 				</div>
 				<div class="col-md-3 col-md-push-1">
 					<h4>Navigation</h4>
@@ -228,41 +228,36 @@
 				</div>
 
 				<div class="col-md-3 col-md-push-1">
-					<h4>Contact Information</h4>
+					<h4>Offices</h4>
 					<ul class="fh5co-footer-links">
-						<li>198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-						<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
-						<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-						<li><a href="http://gettemplates.co">gettemplates.co</a></li>
+						<li><a href="delhi.php">Delhi</a></li>
+						<li><a href="jalandar.php">Jabalpur</a></li>
+						<li><a href="Hyderabad.php">Hyderabad</a></li>
+						<li><a href="bhopal.php">Bhopal</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-3 col-md-push-1">
 					<h4>Opening Hours</h4>
 					<ul class="fh5co-footer-links">
-						<li>Mon - Thu: 9:00 - 21 00</li>
-						<li>Fri 8:00 - 21 00</li>
-						<li>Sat 9:30 - 15: 00</li>
+						<li>Mon - Fri : 8:00 a.m-8:00 p.m</li>
+						<li>Sunday Closed</li>
 					</ul>
 				</div>
-<div class="row copyright">
-				<div class="col-md-12 text-center">
+				<div class="row copyright">
+				<div class="col-md-12 text-center cl1">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						
+						<small class="block">&copy; 2017 . All Rights Reserved.</small> 
 					</p>
-					<p>
+					<!--<p>
 						<ul class="fh5co-social-icons">
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
 							<li><a href="#"><i class="icon-facebook"></i></a></li>
 						</ul>
-					</p>
+					</p>-->
 				</div>
+			 </div>
 			</div>
-
-			</div>
-
-			
 		</div>
 	</footer>
 	</div>

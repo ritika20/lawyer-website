@@ -122,7 +122,6 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline;
 }
 .fh5co-nav ul li a {
-  font-size: 20px;
   padding: 30px 15px;
   color: #ffc61a;
   -webkit-transition: 0.5s;
@@ -365,6 +364,8 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   min-height: 700px;
+  position: relative;
+    bottom: 5em;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h1, #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
   margin: 0;
@@ -376,6 +377,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 50px;
   line-height: 1.3;
   font-weight: 300;
+  background: rgba(0,0,0,0.5);
 }
 @media screen and (max-width: 768px) {
   #fh5co-hero .flexslider .slider-text > .slider-text-inner h1 {
@@ -1063,6 +1065,8 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+        height: 30em;
+
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
@@ -1102,7 +1106,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-footer .copyright .block {
   display: block;
-  margin-top: 60px;
+  margin-top: 12em;
 }
 
 #map {
@@ -1529,6 +1533,9 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-bottom: 4em !important;
   background: rgba(0,0,0,0.7);
   padding: 5em;
+      height: 25em;
+    margin-top: -5em;
+}
 }
 
 .row-pb-sm {
@@ -1663,7 +1670,7 @@ text-align: left;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 37px;
+    left: 23px;
     right: 0;
     margin-top: -12.3em !important;
     display: none;
@@ -1752,7 +1759,7 @@ font-size: 20px;
 }
 
  h4{
-  font-size: 30px;
+  font-size: 25px;
     color: white;
     }
     /* career css*/
@@ -1964,6 +1971,7 @@ font-size: 20px;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    margin-top: -5em;
 }
 
 /* The Close Button */
@@ -2052,4 +2060,38 @@ font-size: 20px;
     font-size: 30px;
     font-weight: 500;
     color: #c89704;
+}
+
+.modal-backdrop.in{
+z-index: 1 !important;
+
+}
+.modal-dialog{
+    width: 100%;
+    text-align: justify;
+}
+.modal-header{
+    background: url("../images/2.jpg");
+    background-position: center;
+    height: 8em;
+    color: white;
+
+}
+.modal-title{
+
+      position: relative;
+    top: 50px;
+    font-size: 40px;
+}
+.cl1{
+      margin-top: -10em;
+
+}
+.disclaim
+{
+  font-size: 15px;
+}
+.read-more{
+  color:#e2ad18;
+  cursor: pointer;
 }
