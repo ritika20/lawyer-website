@@ -154,10 +154,9 @@
 					<div class="fh5co-contact-info">
 						<h2>Contact Information</h2>
 						<ul>
-							<li class="address">Buchke Law Chambers | <br>108, Deendayal Parisar|<br> E-2, Arera Colony| <br>Opp. Habibganj Station| Bhopal – 462016  </li>
+							<li class="address">Buchke Law Chambers | <br>108, Deendayal Parisar|<br> E-2, Arera Colony| <br>Opp. Habibganj Station| <br>Bhopal – 462016  </li>
 							<li class="phone"><a href="tel://1234567920">+91 755 2468809  </a></li>
-							<li class="email"><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-							<li class="url"><a href="http://gettemplates.co">gettemplates.co</a></li>
+							
 						</ul>
 					</div>
 

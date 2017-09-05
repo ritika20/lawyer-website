@@ -145,7 +145,7 @@
 		<div class="container">
 			<div class="row">
 				<div class=" col-md-12 heading-state">
-					<h1 style="font-size:3em;color:#c89704;">JABALPUR</h1>
+					<!--<h1 style="font-size:3em;color:#c89704;">JABALPUR</h1>-->
 				</div>
 			</div>
 			<div class="row">
@@ -155,9 +155,7 @@
 						<ul>
 							<li class="address">F-3 | C- Block| <br>Satyamav Jayate Complex |<br> Ambedkar Chowk | Near High Court |<br> Jabalpur | Madhya Pradesh - 482001</li>
 							<li class="phone"><a href="tel://1234567920">+91 761 2262 3996</a></li>
-							<li class="email"><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-							<li class="url"><a href="http://gettemplates.co">gettemplates.co</a></li>
-						</ul>
+							</ul>
 					</div>
 
 				</div>

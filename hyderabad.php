@@ -155,8 +155,7 @@
 						<ul>
 							<li class="address">Tara Sharma Law Chambers | <br>201 Murlidhar Apartments| <br>West Marredpally| <br>Secundrabad – 500026 </li>
 							<li class="phone"><a href="tel://1234567920">+91 98490 18615 </a></li>
-							<li class="email"><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-							<li class="url"><a href="http://gettemplates.co">gettemplates.co</a></li>
+							
 						</ul>
 					</div>
 

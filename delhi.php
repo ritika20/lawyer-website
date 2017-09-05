@@ -178,9 +178,7 @@ $headers = 'From: '.$email."\r\n".
 							 9 Barakhamba Road | New Delhi <br>
 							 110001</li>
 							<li class="phone"><a href="tel://1234567920">+91 11 2371 1147</a></li>
-							<li class="email"><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-							<li class="url"><a href="http://gettemplates.co">gettemplates.co</a></li>
-						</ul>
+							</ul>
 					</div>
 
 				</div>

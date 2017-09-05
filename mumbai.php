@@ -155,9 +155,7 @@
 						<ul>
 							<li class="address">7A |Second Floor -296 |<br> Palkiwala Building |<br> Shahid Bhagat Singh Road |<br> Fort | Mumbai | Maharashtra <br> 4000001</li>
 							<li class="phone"><a href="tel://1234567920">+91 11 2371 1147</a></li>
-							<li class="email"><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-							<li class="url"><a href="http://gettemplates.co">gettemplates.co</a></li>
-						</ul>
+							</ul>
 					</div>
 
 				</div>
