@@ -131,7 +131,7 @@
 		   		<div class="container">
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 		   				<div class="slider-text-inner desc">
-		   					<h2 class="heading-section">Contact Us</h2>
+		   					<!--<h2 class="heading-section">Contact Us</h2>
 		   					<!--<p class="fh5co-lead">Designed with <i class="icon-heart3"></i> by the fine folks at <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a></p>-->
 		   				</div>
 		   			</div>
@@ -212,7 +212,7 @@
 		<div class="container">
 			<div class="row row-pb-md">
 				<div class="col-md-3 fh5co-widget">
-					<h4><a href="index.html"><img src="images/logo-tl.png"></a></h4>
+					<h4><a href="index.html"><img src="images/logo-tl2.png"></a></h4>
 					<p style="font-size:10px">Triumph Legal, initially started by alumni of Symbiosis Law School, Pune, with a zeal to provide matchless legal services and one roof solutions to our clients. Triumph Legal started its Pan India operations from New Delhi in 2014 and over the period of last 2 years has established fully operational offices at Mumbai and Jabalpur with strength of 5 Partners and 20 Lawyers.</p>
 				</div>
 				<div class="col-md-3 col-md-push-1">
@@ -226,15 +226,20 @@
 				</div>
 
 				<div class="col-md-3 col-md-push-1">
-					<h4>Offices</h4>
+					<h4> Our Offices</h4>
 					<ul class="fh5co-footer-links">
 						<li><a href="delhi.php">Delhi</a></li>
 						<li><a href="jalandar.php">Jabalpur</a></li>
-						<li><a href="Hyderabad.php">Hyderabad</a></li>
-						<li><a href="bhopal.php">Bhopal</a></li>
+						<li><a href="mumbai.php">Mumbai</a></li>
+						
 					</ul>
+					<br>
+					<h4> Affliates Offices</h4>
+					<ul class="fh5co-footer-links">
+						<li><a href="bhopal.php">Bhopal</a></li>
+						<li><a href="Hyderabad.php">Hyderabad</a></li>
+</ul>
 				</div>
-
 				<div class="col-md-3 col-md-push-1">
 					<h4>Opening Hours</h4>
 					<ul class="fh5co-footer-links">

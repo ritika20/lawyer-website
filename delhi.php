@@ -114,7 +114,7 @@ $headers = 'From: '.$email."\r\n".
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="index.html"><img src="images/logo-tl.png"></a></div>
+						<div id="fh5co-logo"><a href="index.html"><img src="images/logo-tl2.png"></a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
@@ -152,7 +152,7 @@ $headers = 'From: '.$email."\r\n".
 		   		<div class="container">
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 		   				<div class="slider-text-inner desc">
-		   					<h2 class="heading-section">Contact Us</h2>
+		   					<!--<h2 class="heading-section">Contact Us</h2>-->
 		   					<!--<p class="fh5co-lead">Designed with <i class="icon-heart3"></i> by the fine folks at <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a></p>-->
 		   				</div>
 		   			</div>
@@ -253,13 +253,19 @@ $headers = 'From: '.$email."\r\n".
 				</div>
 
 				<div class="col-md-3 col-md-push-1">
-					<h4>Offices</h4>
+					<h4> Our Offices</h4>
 					<ul class="fh5co-footer-links">
 						<li><a href="delhi.php">Delhi</a></li>
 						<li><a href="jalandar.php">Jabalpur</a></li>
-						<li><a href="Hyderabad.php">Hyderabad</a></li>
-						<li><a href="bhopal.php">Bhopal</a></li>
+						<li><a href="mumbai.php">Mumbai</a></li>
+						
 					</ul>
+					<br>
+					<h4> Affliates Offices</h4>
+					<ul class="fh5co-footer-links">
+						<li><a href="bhopal.php">Bhopal</a></li>
+						<li><a href="Hyderabad.php">Hyderabad</a></li>
+</ul>
 				</div>
 
 				<div class="col-md-3 col-md-push-1">

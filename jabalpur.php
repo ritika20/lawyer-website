@@ -93,7 +93,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="index.html"><img src="images/logo-tl.png"></a></div>
+						<div id="fh5co-logo"><a href="index.html"><img src="images/logo-tl2.png"></a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
@@ -227,13 +227,19 @@
 				</div>
 
 				<div class="col-md-3 col-md-push-1">
-					<h4>Offices</h4>
+					<h4> Our Offices</h4>
 					<ul class="fh5co-footer-links">
 						<li><a href="delhi.php">Delhi</a></li>
 						<li><a href="jalandar.php">Jabalpur</a></li>
-						<li><a href="Hyderabad.php">Hyderabad</a></li>
-						<li><a href="bhopal.php">Bhopal</a></li>
+						<li><a href="mumbai.php">Mumbai</a></li>
+						
 					</ul>
+					<br>
+					<h4> Affliates Offices</h4>
+					<ul class="fh5co-footer-links">
+						<li><a href="bhopal.php">Bhopal</a></li>
+						<li><a href="Hyderabad.php">Hyderabad</a></li>
+</ul>
 				</div>
 
 				<div class="col-md-3 col-md-push-1">
