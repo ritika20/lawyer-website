@@ -1289,10 +1289,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav-toggle.fh5co-nav-white > i {
   color: #fff;
-  background: white;
+  background: black;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
-  background: white;
+  background: black;
 }
 
 .fh5co-nav-toggle i::before {
